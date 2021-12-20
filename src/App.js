@@ -25,16 +25,12 @@ function App() {
         <SCROLLTOTOP />
         <NAVBAR />
         <Switch>
-          <Route exact path="/REACTJS" component={HOMEPAGE} />
-          <Route exact path="/REACTJS/contact" component={CONTACT} />
-          <Route exact path="/REACTJS/allprojects" component={ALLPROJECTS} />
-          <Route exact path="/REACTJS/addprojects" component={ADD_PROJECTS} />
-          <Route
-            exact
-            path="/REACTJS/write"
-            component={WRITE_A_RECOMMENDATION}
-          />
-          <Route exact path="/REACTJS/project/:num" component={PROJECTPAGE} />
+          <Route exact path="/REACT" component={HOMEPAGE} />
+          <Route exact path="/REACT/contact" component={CONTACT} />
+          <Route exact path="/REACT/allprojects" component={ALLPROJECTS} />
+          <Route exact path="/REACT/addprojects" component={ADD_PROJECTS} />
+          <Route exact path="/REACT/write" component={WRITE_A_RECOMMENDATION} />
+          <Route exact path="/REACT/project/:num" component={PROJECTPAGE} />
         </Switch>
         <FOOTER />
       </BrowserRouter>
