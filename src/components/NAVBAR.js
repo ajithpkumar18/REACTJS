@@ -7,13 +7,14 @@ function NAVBAR() {
     <nav className="navbar navbar-expand-md fixed-top bg-white ">
       <div className="container my-2">
         <Link
+          exact
           to="/REACT"
           className="navbar-brand font-weight-bold "
           style={{ color: "black" }}
         >
           AJITH P. KUMAR
         </Link>
-        <Link to="/REACT/contact" className=" ml-auto mx-3">
+        <Link exact to="/REACT/contact" className=" ml-auto mx-3">
           <button className=" navbar-btn font-weight-bold btn btn-outline-info   ">
             Contact me
           </button>
@@ -42,6 +43,7 @@ function NAVBAR() {
               BLOGS
             </a>
             <Link
+              exact
               to="/REACT/allprojects"
               className="
                 nav-item nav-link
