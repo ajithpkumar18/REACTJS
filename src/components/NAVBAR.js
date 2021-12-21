@@ -8,13 +8,13 @@ function NAVBAR() {
       <div className="container my-2">
         <Link
           exact
-          to="/REACT"
+          to="/REACTJS"
           className="navbar-brand font-weight-bold "
           style={{ color: "black" }}
         >
           AJITH P. KUMAR
         </Link>
-        <Link exact to="/REACT/contact" className=" ml-auto mx-3">
+        <Link exact to="/REACTJS/contact" className=" ml-auto mx-3">
           <button className=" navbar-btn font-weight-bold btn btn-outline-info   ">
             Contact me
           </button>
@@ -30,7 +30,7 @@ function NAVBAR() {
         <div className="collapse navbar-collapse flex-grow-0" id="collapseNav">
           <div className="navbar-nav">
             <a
-              href="/REACT"
+              href="/REACTJS"
               className="
                 nav-item nav-link
                 text-dark
@@ -44,7 +44,7 @@ function NAVBAR() {
             </a>
             <Link
               exact
-              to="/REACT/allprojects"
+              to="/REACTJS/allprojects"
               className="
                 nav-item nav-link
                 text-dark

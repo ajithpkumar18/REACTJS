@@ -1,6 +1,6 @@
 import React from "react";
 import PROJECTCARD from "./PROJECTCARD";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import { Consumer } from "../CONTEXT";
 function PROJECTSECTION() {
   return (
