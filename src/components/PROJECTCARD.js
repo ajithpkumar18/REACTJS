@@ -9,10 +9,8 @@ function PROJECTCARD(props) {
       <div className="card-body">
         <h4 className="card-title">{title}</h4>
         <p className="card-text">{excerpt}</p>
-        <a href="/" className="stretched-link">
-          
-        </a>
-        <Link to={`/project/${id}`} className="stretched-link"></Link>
+        <a href="/" className="stretched-link"></a>
+        <Link to={`REACTJS/project/${id}`} className="stretched-link"></Link>
       </div>
     </div>
   );

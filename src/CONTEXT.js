@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+import axios from "axios";
+
 const Context = React.createContext();
 
 export class Provider extends Component {
   state = {
     details: [
       {
-        name: "Random guy-1",
+        name: "Random guy",
         message: "He is a good engneer",
         desgn: "CEO at ABC company",
       },
@@ -80,28 +82,47 @@ export class Provider extends Component {
         id: 1,
         title: "Project 1",
         excerpt: "This is my project about...",
-        imageUrl: require("./photos/free-stock-image-1.jpg"),
+        imageUrl: require("./photos/joshgram.png"),
+        body: "Body-1",
       },
       {
         id: 2,
         title: "Project 2",
         excerpt: "This is my project about...",
-        imageUrl: require("./photos/free-stock-image-2.jpg"),
+        imageUrl: require("./photos/comfy.png"),
+        body: "Body-2",
       },
       {
         id: 3,
         title: "Project 3",
         excerpt: "This is my project about...",
         imageUrl: require("./photos/free-stock-image-3.jpg"),
+        body: "Body-3",
       },
       {
         id: 4,
         title: "Project 4",
         excerpt: "This is my project about...",
         imageUrl: require("./photos/free-stock-image-1.jpg"),
+        body: "Body-4",
       },
     ],
   };
+
+  async componentDidMount() {
+    const response = await axios.get(
+      "http://localhost:9000/api/recommendations"
+    );
+
+    console.log(response.data.isSuccesful);
+
+    if (response.data.isSuccesful) {
+      this.setState({
+        details: response.data.results,
+      });
+    }
+  }
+
   render() {
     return (
       <Context.Provider value={this.state}>
