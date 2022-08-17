@@ -1,0 +1,5 @@
+React Life Cycle methods: All these methods are used in Class component only.
+
+1. ComponentDidMount(): Its is loadded when the Component is totally rendered. We put our ajax calls in this function.
+2. ComponentDidUpdate(): This method is called when there is any change in the component.
+3. ComponentWillUnmount(): This method is called when the page is removed after being called.
