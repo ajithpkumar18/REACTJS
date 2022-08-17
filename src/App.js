@@ -36,7 +36,7 @@ function App() {
             path="/REACTJS/write"
             component={WRITE_A_RECOMMENDATION}
           />
-          <Route exact path="/REACTJS/project/:num" component={PROJECTPAGE} />
+          <Route exact path="/REACTJS/project/:id" component={PROJECTPAGE} />
         </Switch>
         <FOOTER />
       </BrowserRouter>
