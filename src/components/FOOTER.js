@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function FOOTER() {
   return (
@@ -34,28 +34,29 @@ function FOOTER() {
           </div>
           <div class="col-12 col-md-4 text-light text-justify py-3">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Curabitur pretium tincidunt lacus nulla gravida orci a odio sit
-              aliquip ut nullam.
+              I want to extend my heartfelt appreciation for visiting my
+              portfolio. Your interest in my work as a full stack developer
+              genuinely means a lot to me. It's through encounters like these
+              that I find inspiration and motivation to continue growing and
+              creating remarkable solutions. Your support and trust are
+              invaluable, and I'm truly grateful for the opportunity to
+              collaborate with individuals like you. It is through your trust
+              and encouragement that I am inspired to push the boundaries of my
+              abilities. Let's embark on exciting ventures together and make a
+              positive impact. Thank you again for being a part of this journey.
             </p>
           </div>
           <div class="col-12 col-md-4 py-3">
             <h5 class="text-info pb-3">Social</h5>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/ajith-p-kumar" target="_blank">
               <i class="fab fa-linkedin text-light h1 d-block"></i>
             </a>
-            <a href="/">
+            <a href="https://github.com/JOSHI-owo" target="_blank">
               <i class="fab fa-github text-light h1 d-block"></i>
             </a>
-            <a href="/">
+            <Link to="/contact">
               <i class="fas fa-envelope text-light h1 d-block"></i>
-            </a>
+            </Link>
           </div>
         </div>
         <div class="text-muted py-3">

@@ -2,15 +2,15 @@ import React from "react";
 // import Vipin from "../photos/vipin.JPG";
 
 function TITLE() {
-    const name="Ajith P. Kumar"
-    const excerpt = "I am a freelancer developer";
+  const name = "Ajith P. Kumar";
+  const excerpt = "I am an aspiring Software engineer";
   return (
     <div className="container">
       <div className="row text-center align-items-center my-5 py-5">
         <div className="col-12 col-md-6">
           <img
             className="image img-fluid rounded-circle w-75"
-            src={require('../photos/ajith.jpg')}
+            src={require("../photos/ajith.jpg")}
             alt="your name"
           />
         </div>

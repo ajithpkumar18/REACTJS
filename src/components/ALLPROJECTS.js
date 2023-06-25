@@ -7,6 +7,7 @@ function ALLPROJECTS() {
     <Consumer>
       {(value) => {
         const { projects } = value;
+        console.log(projects);
         return (
           <div className="container text-center my-5 py-5">
             <h1 className="font-weight-light py-5">

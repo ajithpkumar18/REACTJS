@@ -7,11 +7,12 @@ function RECCOMENDATION() {
     <Consumer>
       {(value) => {
         const { details } = value;
+        console.log(details);
         return (
           <div className="container-fluid my-5">
-            <div className="row text-center py-5 d-flex flex-nowrap overflow-auto scrollbar">
+            <div className="row text-center py-5 d-flex align-items-center justify-content-center flex-nowrap overflow-auto scrollbar">
               {details.map((detail) => (
-                <RECCOMENDATIONCARD key={detail.id} uchiha={detail} />
+                <RECCOMENDATIONCARD detail={detail} />
               ))}
             </div>
           </div>
