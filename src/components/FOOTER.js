@@ -51,7 +51,7 @@ function FOOTER() {
             <a href="https://www.linkedin.com/in/ajith-p-kumar" target="_blank">
               <i class="fab fa-linkedin text-light h1 d-block"></i>
             </a>
-            <a href="https://github.com/JOSHI-owo" target="_blank">
+            <a href="https://github.com/ajithpkumar18" target="_blank">
               <i class="fab fa-github text-light h1 d-block"></i>
             </a>
             <Link to="/contact">

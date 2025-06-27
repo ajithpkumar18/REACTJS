@@ -21,7 +21,23 @@ export class Provider extends Component {
     addProjectHandler: this.addProjectHandler,
     projects: [
       {
-        id: 1,
+        id: 3,
+        title: "Apple iPhone 15 Pro",
+        excerpt:
+          "Built with aerospace-grade titanium, the iPhone 15 Pro is Apple’s most advanced, lightest Pro model ever. Powered by the lightning-fast A17 Pro chip, it brings console-level gaming, stunning photography, and pro-grade video to the palm of your hand. With the all-new customizable Action button, a powerful camera system, and USB-C support, it's designed to empower creativity and performance at every touch.",
+        imageUrl: require("./photos/apple.png"),
+        link: "https://apple-landing-page-htyh.vercel.app/",
+      },
+      {
+        id: 4,
+        title: "Luxury INN",
+        excerpt:
+          "Luxury INN is a full-stack hotel booking web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It offers a seamless user experience for browsing, filtering, and booking hotels worldwide. With real-time availability, secure authentication, dynamic date selection, and responsive UI, GlobalStay ensures a smooth and intuitive booking process from start to finish.",
+        imageUrl: require("./photos/hotel.png"),
+        link: "https://luxury-inn-frontend.vercel.app",
+      },
+      {
+        id: 3,
         title: "Netflix clone",
         excerpt:
           "This is my Netflix clone project. I have created the landing page of Netflix web app using React. I have also succesfully implemented the Login functionality with the help of Firebase and Redux. The backend of the website is hosted in firebase, it collects and stores the Login information and user credentials entered while signing in. Redux is used for storing the information in the frontend of the web app. The project is hosted in Firebase.",
@@ -37,7 +53,7 @@ export class Provider extends Component {
         link: "https://sparkling-gingersnap-9403f2.netlify.app",
       },
       {
-        id: 3,
+        id: 1,
         title: "Furniture House",
         excerpt:
           "This is my project about the fontend part of an E-commerce website used for selling Wooden utensils therefore the name ComfyHouse. User can view all the items avaiable in the list, add the items to the cart, increase the quantity of items, calculated total will be showed to them in the cart section. The technologies used include HTML, CSS, JS.",
@@ -75,17 +91,17 @@ export class Provider extends Component {
     skills: [
       {
         id: 1,
-        name: "html5",
-        imageUrl: require("./photos/html5.png"),
+        name: "reactJS",
+        imageUrl: require("./photos/react.png"),
         starsTotal: 3,
-        starsActive: 3,
+        starsActive: 2,
       },
       {
         id: 2,
-        name: "cSS3",
-        imageUrl: require("./photos/css3.png"),
+        name: "nodeJS",
+        imageUrl: require("./photos/nodejss.png"),
         starsTotal: 3,
-        starsActive: 3,
+        starsActive: 2,
       },
       {
         id: 3,
@@ -103,8 +119,8 @@ export class Provider extends Component {
       },
       {
         id: 5,
-        name: "reactJS",
-        imageUrl: require("./photos/react.png"),
+        name: "tailwind",
+        imageUrl: require("./photos/tailwind.jpg"),
         starsTotal: 3,
         starsActive: 2,
       },
@@ -126,6 +142,34 @@ export class Provider extends Component {
         id: 8,
         name: "Flask",
         imageUrl: require("./photos/flask.png"),
+        starsTotal: 3,
+        starsActive: 2,
+      },
+      {
+        id: 9,
+        name: "MongoDB",
+        imageUrl: require("./photos/mongoDb.png"),
+        starsTotal: 3,
+        starsActive: 2,
+      },
+      {
+        id: 9,
+        name: "expressjs",
+        imageUrl: require("./photos/expressjs.jpg"),
+        starsTotal: 3,
+        starsActive: 2,
+      },
+      {
+        id: 10,
+        name: "PostgreSQL",
+        imageUrl: require("./photos/postgresql.png"),
+        starsTotal: 3,
+        starsActive: 2,
+      },
+      {
+        id: 11,
+        name: "Prisma",
+        imageUrl: require("./photos/prisma.png"),
         starsTotal: 3,
         starsActive: 2,
       },

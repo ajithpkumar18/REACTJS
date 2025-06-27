@@ -30,7 +30,8 @@ function NAVBAR() {
         <div className="collapse navbar-collapse flex-grow-0" id="collapseNav">
           <div className="navbar-nav">
             <a
-              href="/"
+              href="../resume/Web_Developer.pdf"
+              download={"Ajith_P_Kumar"}
               className="
                 nav-item nav-link
                 text-dark
@@ -40,7 +41,7 @@ function NAVBAR() {
                 font-weight-bold
               "
             >
-              BLOGS
+              Resume
             </a>
             <Link
               exact
